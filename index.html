@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhancia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <!-- Header -->
+    <header class="header">
+        <img class="logo" src="/images/logo.jpg" alt="Enhancia Logo" />
+      
+        <div class="header-center">
+            <a href="#about" class="title">Enhancement Techniques</a>
+        </div>
+      
+        <div class="nav-actions">
+          <img class="profile-circle" src="/images/language.png" alt="profile-circle" />
+          <div class="login">Login</div>
+          <div class="signup-button"><span>Sign Up</span></div>
+        </div>
+      </header>      
+      
+
+    <!-- Hero / Enhance Section -->
+    <div class="card"></div>
+    <img class="hero-image" src="/images/card image.png" alt="Hero Image" />
+    <div class="enhance-button">
+      <span>Enhance Now</span>
+    </div>
+    <div class="headline">Best Image Enhancer - See Everything In Detail</div>
+
+    <!-- Info Cards -->
+    <div class="info-box" style="left: 180px; top: 700px;">
+      <img src="/images/histogram.png" alt="Histogram Equalization"/>
+    </div>
+
+    <div class="info-box" style="left: 760px; top: 700px;">
+      <img src="/images/log.png" alt="Log Transformation"/>
+    </div>
+
+    <div class="info-box" style="left: 180px; top: 1050px;">
+      <img src="/images/p-law.png" alt="Power Law Transformation"/>
+    </div>
+
+    <div class="info-box" style="left: 760px; top: 1050px;">
+      <img src="/images/3shold.png" alt="Threshold Transformation"/>
+    </div>
+  </div>
+
+  <!-- About Section -->
+<div class="about-section" id="about">
+    <div class="about-left">
+      <h2>About Enhancia</h2>
+      <p>
+        Welcome to Enhancia — where pixels meet perfection. <br /><br />
+        At Enhancia, we believe every image has the potential to shine. Our platform is built to transform ordinary photos into extraordinary visuals using cutting-edge enhancement technologies. Whether you're battling blur, reducing noise, adjusting contrast, or reviving old memories — we make image enhancement effortless and intelligent.
+      </p>
+      <p class="support-text">
+        Technical support: <a href="mailto:tech@enhancia" class="underline">tech@Enhancia</a>
+      </p>
+      <div class="social-icons">
+        <img src="/images/linkedin.png" alt="LinkedIn" />
+        <img src="/images/instagram.png" alt="Instagram" />
+        <img src="/images/facebook.png" alt="Facebook" />
+        <img src="/images/twitter.png" alt="Twitter" />
+        <img src="/images/youtube.png" alt="YouTube" />
+      </div>
+    </div>
+  
+    <div class="about-right">
+      <div class="info-card">
+        <strong>1. Histogram Equalization</strong>
+        <ul>
+          <li>What it does: Enhances the overall contrast of the image.</li>
+          <li>How: Spreads out the intensity values (pixels) across the full range.</li>
+          <li>Result: Brighter and more detailed image, especially in dark or low-contrast scenes.</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <strong>2. Log Transformation</strong>
+        <ul>
+          <li>What it does: Enhances details in dark areas of the image.</li>
+          <li>Result: Useful for medical images or any image with important low-brightness details.</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <strong>3. Power Law (Gamma) Transformation</strong>
+        <ul>
+          <li>What it does: Adjusts image brightness and contrast using a non-linear function.</li>
+          <li>Result: Enhances specific intensity ranges like shadows or highlights.</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <strong>4. Threshold Transformation</strong>
+        <ul>
+          <li>What it does: Converts an image to binary (black & white).</li>
+          <li>Result: Highlights objects of interest and is often used in segmentation.</li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+  
+</body>
+</html>
